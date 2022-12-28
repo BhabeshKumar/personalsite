@@ -1,12 +1,22 @@
-hr{
-    background-color: #f3ece2; 
+*{
+    margin:0;
+}
+body
+{
+    background-color: white;
+
+}
+.liner{
+    display: flex;
+    flex:1;
+    height:20px;
+    background-color: antiquewhite;
 }
 .navbar{
     display: flex;
     padding: 20px;
     align-items: center;
-    background-color: #f3ece2; 
-    border: 1px solid black;
+   
     
 }
 nav{
@@ -19,11 +29,17 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 20px;
     
 }
+nav a{
+    text-decoration: none;
+    line-height: 40px;
+    color: black;
+}
+
 .row{
     display: flex;
     width:700px;
